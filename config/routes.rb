@@ -1,4 +1,10 @@
 EchoApp::Application.routes.draw do
+ 
+
+
+  match '/' to: 'echo#show'
+  post "echo/echo"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
