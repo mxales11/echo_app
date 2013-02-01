@@ -1,7 +1,7 @@
 EchoApp::Application.routes.draw do
  
 
-  match '/' to: 'echo#show'
+  get "echo/show"
   
   post "echo/echo"
 
